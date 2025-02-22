@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if you try to access a property of a document snapshot before the `snapshot.exists` property has been evaluated, or if you try to access a property that doesn't exist.  This often happens asynchronously, making it tricky to debug.
